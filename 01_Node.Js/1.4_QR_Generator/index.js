@@ -2,6 +2,8 @@ import inquirer from "inquirer";
 import qr from "qr-image";
 import fs from "fs";
 
+//Getting User Input through Inquirer Package
+
 inquirer
   .prompt([{ message: "Enter your URL: ", name: "URL" }])
   .then((answers) => {
